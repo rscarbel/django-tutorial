@@ -6,6 +6,7 @@ class ChoiceInline(admin.TabularInline):
     model = Choice
     extra = 3
 
+display = ('question_text', 'pub_date', 'was_published_recently')
 
 class QuestionAdmin(admin.ModelAdmin):
     fieldsets = [
