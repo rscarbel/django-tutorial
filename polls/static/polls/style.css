@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 li a {
   color: green;
 }
 
 body {
-  background: white url("https://avatars.githubusercontent.com/u/40727301?v=4?s=400") no-repeat;
+  background-color: rgb(236, 244, 252);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
 }
